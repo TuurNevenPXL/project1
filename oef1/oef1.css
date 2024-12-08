@@ -18,3 +18,34 @@ main {
     width: 1200px;
     margin: 0 auto;
 }
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 .highlight {
+    border-left: 4px solid green;
+    display: inline-block;
+    height: 1em;
+}
+
+h2 {
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid green;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+}
