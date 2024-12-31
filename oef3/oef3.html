@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- naam: Tuur Neven             -->
+<head>
+  <meta charset="UTF-8">
+  <title>oef3</title>
+  <link rel="stylesheet" href="assets/css/oef3.css">
+</head>
+<body>
+
+<h1>Mussen vs Vinken</h1>
+<form action="/submit" method="get">
+
+  <fieldset>
+
+    <legend>Algemeen</legend>
+    <label for="datum"><b>Datum: </b></label>
+    <input type="date" id="datum" name="datum" placeholder="mm/dd/yyyy" required>
+    <br>
+    <br>
+    <label for="tijd"><b>Tijd: </b></label>
+    <select id="tijd" name="tijd" required>
+      <option value="0_6">0u-6u</option>
+      <option value="6_12">6u-12u</option>
+      <option value="12_18">12u-18u</option>
+      <option value="18_24">18u-24u</option>
+    </select>
+    <br>
+    <br>
+    <label><b>Neerslag: </b></label>
+
+    <input type="radio" id="geen" name="neerslag" value="geen" required>
+    <label for="geen"><b>geen</b></label>
+
+    <input type="radio" id="matig" name="neerslag" value="matig" required>
+    <label for="matig"><b>matig</b></label>
+
+    <input type="radio" id="overvloedig" name="neerslag" value="overvloedig" required>
+    <label for="overvloedig"><b>overvloedig</b></label>
+
+  </fieldset>
+  <br>
+
+  <fieldset>
+
+    <legend>Vogels</legend>
+    <img src="assets/images/mus.png" alt="foto mus">
+    <label for="aantal_mus"><b>#Mussen:</b></label>
+    <input type="number" id="aantal_mus" name="aantal_mus" min="0" step="1" placeholder="0" required>
+    <label for="zekerheid_mus"><b>zeker: </b></label>
+    <input type="range" id="zekerheid_mus" name="zekerheid_mus" min="0" max="100" step="1" required>
+    <br>
+
+    <br>
+    <img src="assets/images/vink.png" alt="foto mus">
+    <label for="aantal_vink"><b>#Vinken:</b></label>
+    <input type="number" id="aantal_vink" name="aantal_vink" min="0" step="1" placeholder="0" required>
+    <label for="zekerheid_vink"><b>zeker: </b></label>
+    <input type="range" id="zekerheid_vink" name="zekerheid_vink" min="0" max="100" step="1" required>
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+
+    <legend>Acties</legend>
+    <button type="submit">Registreer</button>
+    <button type="reset">maak leeg</button>
+
+  </fieldset>
+
+</form>
+</body>
+</html>

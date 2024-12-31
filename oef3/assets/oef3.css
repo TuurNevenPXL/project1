@@ -1,0 +1,30 @@
+/* naam:
+
+*/
+
+body{
+    width: 900px;
+    margin-left: 200px;
+}
+
+img{
+    width: 100px;
+    border-radius: 99%;
+    border: 2px solid black;
+}
+
+fieldset:nth-of-type(1) input:nth-of-type(2){
+    margin-left: 25px;
+}
+
+fieldset:nth-of-type(1) select {
+    margin-left: 52px;
+}
+
+fieldset:nth-of-type(1) input:nth-of-type(1){
+    margin-left: 34px;
+}
+
+legend {
+    border:2px solid black;
+}
