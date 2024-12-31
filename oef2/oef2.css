@@ -1,0 +1,56 @@
+/*
+    naam: Tuur Neven
+*/
+
+
+/*
+    blauw = #4D6D8F;
+    geel =  #FEFF63;
+*/
+
+thead{
+    font-family: monospace;
+}
+
+
+th {
+    text-decoration: underline;
+    text-align: center;
+}
+
+thead, th {
+    background: #4D6D8F;
+    color: white;
+}
+
+table {
+    border:5px solid black;
+    width: 600px;
+    background-color: black;
+}
+
+tbody {
+    text-align: center;
+}
+
+img{
+    width: 180px;
+    background-color: white;
+    border: 10px solid grey;
+}
+
+tbody tr:nth-child(even) {
+    border-collapse: collapse;
+    height: 35px;
+    background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+    height: 35px;
+    border-collapse: collapse;
+    background-color: #4D6D8F;
+}
+
+thead td:first-child {
+    text-align: center;
+}

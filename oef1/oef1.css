@@ -6,6 +6,81 @@ body {
     body {
         display: grid;
     }
+
+    nav {
+        position: fixed;
+        font-size: 1.4em;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 250px;
+        border: orange 2px solid;
+        border-radius: 5px;
+    }
+
+    .footer {
+        color: white;
+        background-color: orange;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .natuur{
+        background-color: orange;
+        color: white;
+    }
+
+    .bar{
+        text-transform: uppercase;
+        background-color: orange;
+        color: white;
+        align-items: center;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 10px 10px 0 0;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 2em;
+        display: flex;
+        margin-left: 0.5em;
+
+    }
+
+    header {
+        text-transform: uppercase;
+        border-bottom: 1px solid orange;
+    }
+
+    header h2 {
+        border-left: orange 10px solid;
+        padding-left: 12px;
+    }
+
+    figcaption {
+        bottom: 10px;
+        right: 10px;
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+    }
+
+    figure {
+        display: inline-block;
+
+        position: relative;
+    }
+
 }
 
 img {
@@ -19,11 +94,7 @@ main {
     margin: 0 auto;
 }
 
-h1 {
-    font-size: 3em;
-    text-transform: uppercase;
-    margin: 0;
-}
+
 
 h2 .highlight {
     border-left: 4px solid green;
@@ -31,21 +102,12 @@ h2 .highlight {
     height: 1em;
 }
 
-h2 {
-    font-size: 3em;
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
+
 
 header {
     padding-bottom: 10px;
     border-bottom: 2px solid green;
 }
 
-footer {
-    color: white;
-    padding: 10px;
-    text-align: center;
-    background-color: green;
-}
+
+
